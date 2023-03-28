@@ -11,14 +11,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-    /*fun send(v: View){
+     fun send(v: View){
         when (v.getId()){
 
             R.id.activity_main_send ->{
                 val intent = Intent(this, MainActivity2::class.java)
                 startActivity(intent)
             }
-        }  
-    }*/
+        }
+    }
 
 }

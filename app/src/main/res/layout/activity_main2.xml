@@ -39,7 +39,6 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 
     <Button
-
         android:id="@+id/button2"
         android:layout_width="128dp"
         android:layout_height="46dp"
@@ -52,4 +51,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
         app:layout_constraintVertical_bias="1.0" />
+
+    <include
+        layout="@layout/layout_botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="667dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
